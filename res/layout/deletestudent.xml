@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="16dp"
+        android:text="Student id"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/text_field_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:textColor="@android:color/background_dark" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttondeletestudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_field_student_id"
+        android:layout_marginTop="27dp"
+        android:text="Delete Student"
+        android:textColor="@android:color/background_dark" />
+
+</RelativeLayout>

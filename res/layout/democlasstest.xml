@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Id"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <EditText android:id="@+id/text_field_student_id" 
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+         android:textColor="@android:color/background_dark"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:textColor="@android:color/background_dark" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/addmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Mark"
+        android:textColor="@android:color/background_dark" />
+
+</LinearLayout>

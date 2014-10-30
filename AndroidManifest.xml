@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.comboyz.abc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+<uses-permission android:name="android.permission.SEND_SMS">
+        </uses-permission>
+        <uses-permission android:name="android.permission.RECEIVE_SMS">
+           
+        </uses-permission> 
+    <application
+    android:icon="@drawable/ic_launcher"
+        android:label="TeachersAssistant" >
+        <activity
+            android:label="TeachersAssistant"
+            android:name=".MainPage" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:label="AllClass"
+            android:name=".Allclass" >
+            <intent-filter >
+                <action android:name="com.comboyz.abc.Allclass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                  <activity
+            android:label="Main Menu"
+            android:name=".Menu" >
+            <intent-filter >
+                <action android:name="com.comboyz.abc.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                              <activity
+            android:label="Event"
+            android:name=".Event" >
+            
+        </activity>
+        
+         <activity
+            android:label="Lab Menu"
+            android:name=".Labmenu" >
+            
+        </activity>
+        
+        <activity
+            android:label="Lab Menu"
+            android:name=".Lab" >
+            
+        </activity>
+        
+       <activity
+            android:label="Meeting"
+        android:screenOrientation="portrait"  
+            android:name=".Meeting" >
+            
+        </activity>
+        
+           <activity
+            android:label="Class"
+        android:screenOrientation="portrait"  
+            android:name=".Democlass" >
+            
+        </activity>
+        
+         <activity
+            android:label="Addclass Option"
+        android:screenOrientation="portrait"  
+            android:name=".Addclass" >
+        </activity>    
+        
+             
+               
+                 <activity
+            android:label="Attendence Option"
+        android:screenOrientation="portrait"  
+            android:name=".Attendence" >
+        </activity> 
+        
+                     <activity
+            android:label="Add Student Option"
+        android:screenOrientation="portrait"  
+            android:name=".Addstudent" >
+        </activity> 
+ 
+        
+                      <activity
+            android:label="Start Schedule"
+        android:screenOrientation="portrait"  
+            android:name=".Startschedule" >
+        </activity>  
+        
+                          <activity
+            android:label="Show Alarm"
+        android:screenOrientation="portrait"  
+            android:name=".Showalarm" >
+        </activity>  
+        
+           <activity
+            android:label="Edit Student Option"
+        android:screenOrientation="portrait"  
+            android:name=".Editstudent" >
+        </activity> 
+        
+               
+                <activity
+            android:label="Edit Student Option"
+        android:screenOrientation="portrait"  
+            android:name=".Deletestudent" >
+        </activity> 
+        
+                    
+                    <activity
+            android:label="Edit Class Option"
+        android:screenOrientation="portrait"  
+            android:name=".Editclass" >
+        </activity>
+        
+                         <activity
+            android:label="Delete Class Option"
+        android:screenOrientation="portrait"  
+            android:name=".Deleteclass" >
+        </activity>
+        
+                             
+                             <activity
+            android:label="Class Test"
+        android:screenOrientation="portrait"  
+            android:name=".Ct" >
+        </activity>
+        
+                   <activity
+            android:label="Class Test/ Assignment/ Exam/Lab Performance/Lab Final"
+        android:screenOrientation="portrait"  
+            android:name=".DemoClassTest" >
+        </activity>
+        
+                  <activity
+            android:label="Edit Class Test/ Assignment/ Exam/Lab Performance/Lab Final"
+        android:screenOrientation="portrait"  
+            android:name=".DemoEditClassTest" >
+        </activity> 
+        
+                      <activity
+            android:label="Lab"
+        android:screenOrientation="portrait"  
+            android:name=".Demolab" >
+        </activity> 
+        
+ <activity
+            android:label="Add lab"
+        android:screenOrientation="portrait"  
+            android:name=".Addlab" >
+        </activity> 
+        
+      <activity
+            android:label="Edit lab"
+        android:screenOrientation="portrait"  
+            android:name=".Editlab" >
+        </activity>
+           
+          <activity
+            android:label="Delete lab"
+        android:screenOrientation="portrait"  
+            android:name=".Deletelab" >
+        </activity>
+        
+              <activity
+            android:label="Show"
+        android:screenOrientation="portrait"  
+            android:name=".Show" >
+        </activity>
+             
+                  
+                     <activity
+            android:label="Create Text"
+        android:screenOrientation="portrait"  
+            android:name=".Createtxt" >
+        </activity>
+        
+         <activity
+            android:label="Class Menu"
+        android:screenOrientation="portrait"  
+            android:name=".Classmenu" >
+        </activity>
+        
+              <activity
+            android:label="Class/Lab/Exam/Ct Routine Menu"
+        android:screenOrientation="portrait"  
+            android:name=".Demoevent" >
+        </activity> 
+        
+         <activity
+            android:label="Add Class/Lab/Exam/Ct Routine"
+        android:screenOrientation="portrait"  
+            android:name=".Add" >
+        </activity>
+        
+        <activity
+            android:label="Edit Class/Lab/Exam/Ct Routine"
+        android:screenOrientation="portrait"  
+            android:name=".Edit" >
+        </activity>
+
+                    <activity
+            android:label="Delete Class/Lab/Exam/Ct Routine"
+        android:screenOrientation="portrait"  
+            android:name=".Delete" >
+        </activity>
+        
+        <activity
+            android:label="All Class/Lab/Exam/Ct"
+        android:screenOrientation="portrait"  
+            android:name=".All" >
+        </activity>                         
+  
+            
+            <activity
+            android:label="Add Class Representative"
+        android:screenOrientation="portrait"  
+            android:name=".AddRepresentative" >
+        </activity> 
+                        
+                        
+          <receiver android:name=".AlarmReceiver" android:process=":remote" />
+    </application>
+
+</manifest>

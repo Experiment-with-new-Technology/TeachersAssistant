@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Course Number"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/text_field_course_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:textColor="@android:color/background_dark" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <Button
+        android:id="@+id/buttondeleteclass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_field_course_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Delete"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_field_course_number"
+        android:layout_marginTop="19dp"
+        android:text="Course Number must be needed for this purpose"
+        android:textColor="@android:color/background_dark" />
+
+</RelativeLayout>
